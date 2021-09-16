@@ -1,0 +1,164 @@
+body{margin: 0px;
+margin-top: 0px;
+background-image: url(image/sp.jpg);
+background-repeat: no-repeat;
+background-color:black;
+background-size: auto;
+}
+
+.logo{font-family: "sem";}
+.light{font-family: "light";}
+
+hr{margin: 0rem 5rem 4rem;
+opacity: 0.50;}
+
+
+/****************************************my font******************************************************/
+@font-face {
+  font-family: albas;src: url(font/ALBAM___.ttf)
+
+}
+@font-face {
+  font-family: light;src: url(font/Semplicita-Light.otf);
+}
+@font-face {
+  font-family: sem;src: url(font/Semplicita-Bold-Italic.otf)
+}
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+}
+.bd{
+  background-size: cover;}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.col-lg-4{margin-top: 5rem;
+margin-bottom: 5rem;}
+
+/**************************************ANIMATION**********************************************************/
+
+.hk{width: 100%;
+height: 100%;
+background-color: black;
+text-align: center;
+color: white;
+-webkit-animation-name:bar;
+-webkit-animaton-duration:3s;
+-webkit-animation-iteration-count:1;
+animation-name: bar;
+animation-duration: 3s;
+animation-iteration-count: 1;}
+@-webkit-keyframes bar{
+  0%{opacity: 100%;}
+  0.5%{opacity: 0%; }
+  95%{opacity: 100%;}
+  100%{opacity: 100%;}
+
+}
+.anime{-webkit-animation-name:bar;
+-webkit-animaton-duration:3s;
+-webkit-animation-iteration-count:1;
+animation-name: bar;
+animation-duration: 3s;
+animation-iteration-count: 1;}
+@-webkit-keyframes bar{
+  0%{opacity: 100%;}
+  0.5%{opacity: 0%; }
+  95%{opacity: 100%;}
+  100%{opacity: 100%;}
+}
+.anime1{-webkit-animation-name:bar;
+-webkit-animaton-duration:3s;
+-webkit-animation-iteration-count:1;
+animation-name: txt;
+animation-duration: 3s;
+animation-iteration-count: 1;}
+@-webkit-keyframes txt{
+  0%{opacity: 100%;}
+  0.5%{opacity: 0%; }
+  95%{opacity: 100%;}
+  100%{opacity: 100%;}
+}

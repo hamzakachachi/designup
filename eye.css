@@ -1,0 +1,96 @@
+.div0{width: 300px;
+height: 300px;
+margin: auto;
+text-align: center;
+position: relative;
+-webkit-animation-name:ey;
+-weblit-animation-duration:3s;
+-webkit-animation-iteration-count:infinite;
+animation-name: ey;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@-webkit-keyframes ey{
+  0%{top: 0px;}
+  50%{top: 30px;}
+  100%{top: 0px;}
+}
+.div1{width: 10px;
+height: 40px;
+background-color: white;
+display: inline-block;
+margin: 20px;
+transform: rotate(-20deg);
+border-radius: 20%;
+bor}
+
+.div2{width: 10px;
+height: 40px;
+background-color: white;
+display: inline-block;
+margin: 10px 50px 30px ;
+border-radius: 20%;}
+
+.div3{width: 10px;
+height: 40px;
+background-color: white;
+display: inline-block;
+transform: rotate(20deg);
+margin: 20px;
+border-radius: 20%;}
+
+.div4{width: 240px;
+height: 110px;
+max-height: 110px;
+overflow: hidden;
+background-color: white;
+margin:10px auto;
+border-radius: 50%;
+text-align: center;
+}
+#ghamz{-webkit-animation-name: ghamza;
+-webkit-animation-duration:6s;
+-webkit-animation-iteration-count:infinite;
+animation-name: ghamza;
+animation-duration: 4s;
+animation-iteration-count: infinite;}
+
+
+
+@-webkit-keyframes ghamza{
+  0%{height: 105px;}
+  5%{height: 5px; margin-top: 60px; margin-bottom: 60px;}
+  10%{height: 110px; margin-top:10px;margin-bottom: 10px;}
+  100%{height: 110px;}
+}
+
+.eye-anime{width: 90px;
+height: 90px;
+background-color: black;
+border-radius: 100%;
+margin: auto;
+position: relative;
+top: 10px;
+bottom: 10px;
+-webkit-animation-name:eye;
+-webkit-animation-duration:12s;
+-webkit-animation-iteration-count:infinite;
+animation-name: eye;
+animation-duration: 12s;
+animation-iteration-count: infinite;
+
+}
+@-webkit-keyframes eye{
+  0%{top: 10px; left: 0px;}
+  10%{top:10px; left: 0px;}
+  20%{top: 0px; left: 20px;}
+  30%{top: 10px; left: 60px;}
+  40%{top: 10px; left: -50px;}
+  50%{top: 20px; left: -60px;}
+  60%{top: 30px; left: -50px;}
+  70%{top: 20px; left: 20px;}
+  80%{top: 5px; left: 50px;}
+  90%{top: 10px; left: 0px;}
+  100%{top: 10px; left: 0px;}
+
+}
